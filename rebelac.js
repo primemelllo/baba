@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.on('ready', () => {console.log(`Logged in as ${client.user.tag}!`);});
+client.on('ready', () => {console.log(`Logged in as $"NDU1NzM1NTQwMTU1ODA5Nzk0.D1F0GA.zb84mCq8p5QGWP20OiMd4UpfkTs"
 const config = require('./config.json')
-const prefixac = config.prefix;
+const prefixac = #
 client.on('message', message => {
  let rebel = message.content.split(` `).slice(1).join(' ');
 if(message.author.id !== config.id) return ;
@@ -50,4 +50,4 @@ ex ? ${prefixac}avatar @rebel
 **`);
 message.channel.sendEmbed(embed).then(m => m.delete(17000));}
 });
-client.login(config.token);
+client.login("NDU1NzM1NTQwMTU1ODA5Nzk0.D1F0GA.zb84mCq8p5QGWP20OiMd4UpfkTs");
