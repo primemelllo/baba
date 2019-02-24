@@ -7,19 +7,19 @@ client.on('message', message => {
  let rebel = message.content.split(` `).slice(1).join(' ');
 if(message.author.id !== config.id) return ;
 if (message.content.startsWith(prefixac + 'setp')) {
-if(!rebel) return message.channel.send(`**ex ? ${prefixac}setp Hi**`).then(m => m.delete(3000));
+if(!rebel) return message.channel.send(`**ex ? ${#}setp Hi**`).then(m => m.delete(3000));
 client.user.setActivity(rebel,{ type: 'PLAYING' });
 message.channel.send("**تـــ تغيير الحالة ــم**");} 
 if (message.content.startsWith(prefixac + 'setl')) {
-if(!rebel) return message.channel.send(`**ex ? ${prefixac}setl Hi**`).then(m => m.delete(3000));
+if(!rebel) return message.channel.send(`**ex ? ${#}setl Hi**`).then(m => m.delete(3000));
 client.user.setActivity(rebel, { type: 'LISTENING' });
 message.channel.send("**تـــ تغيير الحالة ــم**");}
 if (message.content.startsWith(prefixac + 'sets')) {
-if(!rebel) return message.channel.send(`**ex ? ${prefixac}sets Hi**`).then(m => m.delete(3000));
+if(!rebel) return message.channel.send(`**ex ? ${#}sets Hi**`).then(m => m.delete(3000));
 client.user.setActivity(rebel, { type: 'STREAMING', url:'https://twitch.tv/rebel711' });
 message.channel.send("**تـــ تغيير الحالة ــم**");}     
 if (message.content.startsWith(prefixac + 'setw')) {
-if(!rebel) return message.channel.send(`**ex ? ${prefixac}setw Hi**`).then(m => m.delete(3000));
+if(!rebel) return message.channel.send(`**ex ? ${#}setw Hi**`).then(m => m.delete(3000));
 client.user.setActivity(rebel, { type: 'WATCHING' });
 message.channel.send("**تـــ تغيير الحالة ــم**");}
 if (message.content.startsWith(prefixac + 'embed')) {
